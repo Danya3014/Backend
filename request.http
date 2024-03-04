@@ -1,0 +1,31 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "Imagen":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+    "Nombre":"Bulbasaur",
+    "Tipo": "Planta Venenno",
+    "Habilidades":"Espesura",
+    "Peso": 6.9
+}
+
+###
+
+DELETE http://localhost:9000/api/1 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/1 HTTP/1.1
+Content-Type: application/json
+{
+    "Imagen":"https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+    "Nombre":"Ivysaur",
+    "Tipo": "Planta Venenno",
+    "Habilidades":"Espesura",
+    "Peso": 13.0
+}
+
+
